@@ -513,6 +513,121 @@ footer{
 	}
 } 
 
+@media screen and (max-width: 770px) { 
+	.wrapper {
+		width: 770px;
+	} 
+	.header{
+		background-image: url(img_t/vector_smart_object.png);
+		height: 700px;
+		width: 770px;
+		padding: 50px;
+		box-sizing: border-box;
+	}
+	.header_main__title{
+		font-size: 52px;
+		margin-top: 130px;
+	}
+	.header_main__sub_title{
+		font-size: 24px;
+		margin-top: 40px;
+	}
+	.header_main__bttn{
+		font-size: 14px;
+		margin-top: 40px;
+	}
+	.container{
+		width: 748px;
+		padding-bottom: 100px;
+	}
+	.block-title{
+		padding-top: 100px;
+		padding-bottom: 40px;
+		box-sizing: border-box;
+	}
+	.part {
+		color: white;
+		height: 400px;
+		width: 236px;
+	}
+	.one{
+		background-image: url(img_t/rectangle_4.png);
+	}
+	.two{
+		background-image: url(img_t/rectangle_4_2.png);
+	}
+	.three{
+		background-image: url(img_t/rectangle_4_3.png);
+	}
+	.people{
+		margin-bottom: 30px;
+	}
+	.parts-partner__mobile{
+		width: 465px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.meet_partner__bttn{
+		margin-top: 0px;
+	}
+	.panel-content1{
+		background-image: url(img_t/rounded_rectangle_1.png);
+	}
+	.panel-content2{
+		background-image: url(img_t/rounded_rectangle_1_2.png);
+	}
+	.panel-content3{
+		background-image: url(img_t/rounded_rectangle_1_3.png);
+	}
+	.panel-content4{
+		background-image: url(img_t/rounded_rectangle_1_4.png);
+	}
+	.panel-content5{
+		background-image: url(img_t/rounded_rectangle_1_6.png);
+	}
+	.panel-content6{
+		background-image: url(img_t/rounded_rectangle_1_7.png);
+	}
+	.panel-content7{
+		background-image: url(img_t/rounded_rectangle_1_5.png);
+	}
+	.square, .rectangle{
+		height: 310px;
+		width: 236px;
+		margin: 0px;
+	}
+	.rectangle{
+		width: 490px;
+	}
+	.discover-ideas__question {
+		margin-bottom: 0px;
+	}
+	.discover-ideas__form input{
+		width: 240px;
+		margin-top: 40px;
+	}
+	.footer-container{
+		width: 687px;
+	}
+	.footer-container__part{
+		margin-bottom: 20px;
+	}
+	.logo__red{
+		margin-top: 0px;
+		font-size: 16px;
+	}
+	.footer__headlines div{
+		/*margin-bottom: 0px;*/
+		/*display: flex;
+		*/flex-direction: column;
+	}	
+	.link-column{
+		display: flex;
+		flex-direction: column;
+		margin: 0px;
+	}
+}
+
 @font-face{
 	font-family: 'Roboto';
 	src: url(fonts/Roboto.ttf);
